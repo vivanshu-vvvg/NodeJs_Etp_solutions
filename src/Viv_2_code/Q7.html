@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Socket.IO Example</title>
+</head>
+<body>
+  <h1>Socket.IO Example</h1>
+  <p id="visitor-count"></p>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+
+    socket.on('connect', () => {
+      console.log('Connected to server');
+    });
+
+    socket.on('oddVisitorCount', (visitorCount) => {
+      const visitorCountElem = document.getElementById('visitor-count');
+      visitorCountElem.textContent = `Odd Visitor Count: ${visitorCount}`;
+    });
+  </script>
+</body>
+</html>
