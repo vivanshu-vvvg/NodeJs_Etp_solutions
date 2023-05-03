@@ -1,0 +1,13 @@
+....Q1_B}Insert two text boxes - First name and Last name. Insert three buttons and name them as set cookie", "get cookie" and "delete cookie". When the user inputs the values in the two given text boxes, with the click on "set cookie" button, the user should be able to set the cookie. With the click of "get cookie" button, the user should be able to fetch the cookie which has been set. With the click of "delete cookie" button, the user must be able to delete the cookie.
+
+....03_A)Write a JavaScript program using function to find out whether a number is a palindrome or not. The console must display The number is a palindrome if it is a palindrome otherwise it must display 'The number is not a palindrome' 
+....Q3_B) Demonstrate the concept of middleware.
+
+....Q4_A}Perform the following in MongoDB
+        (i) Create database and Create collection
+        (ii) Insert documents
+        (iii) Update documents (iv) Delete documents
+....Q4_B}Create a form having text boxes and a submit button. On the click of the submit button, the values entered in the form should be printed on the web page Use HTTP module for this task
+
+....Q5_A}Write a JavaScript program to create two arrays consisting of 5 elements each. Combine these two arrays into single array and display the result of the combined array on the console.
+....Q5_B}Create a form having text boxes and a submit button. On the click of the submit button, the values entered in the form should be stored in an excel file. Use Express module for this task.
