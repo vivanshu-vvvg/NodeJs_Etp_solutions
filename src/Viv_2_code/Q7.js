@@ -41,6 +41,30 @@ io.on('connection', (socket) => {
   });
 });
 
-server.listen(3000, () => {
-  console.log('Server is listening on port 3000');
+server.listen(3300, () => {
+  console.log('Server is listening on port 3300');
 });
+
+
+
+/*
+Explanation:
+
+We first import the required modules: express, http, and socketio.
+
+We create an express app, a HTTP server using the app, and a socketio instance using the server.
+
+We create a visitor count variable and initialize it to 0.
+
+We serve the static files located in the public directory using the express static middleware.
+
+We listen to the 'connection' event on the socketio instance. When a new client connects, we increase the visitor count and check if it is odd. If it is odd, we emit the visitor count to all clients using the 'oddVisitorCount' event.
+
+We also listen to the 'studentDetails' event on the socketio instance. When we receive the student details from the client, we log them to the console.
+
+We listen to the 'disconnect' event on the socketio instance. When a client disconnects, we decrease the visitor count.
+
+We start the server and listen on port
+
+
+*/
