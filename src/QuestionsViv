@@ -1,5 +1,9 @@
 ....Q1_B}Insert two text boxes - First name and Last name. Insert three buttons and name them as set cookie", "get cookie" and "delete cookie". When the user inputs the values in the two given text boxes, with the click on "set cookie" button, the user should be able to set the cookie. With the click of "get cookie" button, the user should be able to fetch the cookie which has been set. With the click of "delete cookie" button, the user must be able to delete the cookie.
 
+....Q2_A}Demonstrate the concept of compression and decompression using zlib module.
+....Q2_B}Create a node js application that takes a number 'n' as a user input and calculates the sum of
+n natural numbers and stores the result in a file "result.txt"  which already exists. Also, "success" message gets printed on console in case of success and "Error occurred" gets displayed on console if any error occurs.
+
 ....03_A)Write a JavaScript program using function to find out whether a number is a palindrome or not. The console must display The number is a palindrome if it is a palindrome otherwise it must display 'The number is not a palindrome' 
 ....Q3_B) Demonstrate the concept of middleware.
 
