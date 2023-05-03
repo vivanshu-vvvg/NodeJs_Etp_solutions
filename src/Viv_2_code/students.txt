@@ -1,0 +1,4 @@
+Reg. No., Name, Grade
+101, John, A
+102, Jane, B
+103, Mike, C
